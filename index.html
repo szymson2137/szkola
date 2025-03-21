@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wdrożenie Proxmox do nauczania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="logo.png" alt="Logo">
+            <h1>Wdrożenie Proxmox do nauczania</h1>
+        </header>
+
+        <nav class="navbar">
+            <a href="#wprowadzenie" class="active">Wprowadzenie</a>
+            <a href="#wymagania-systemowe">Wymagania systemowe</a>
+            <a href="#instalacja-proxmox">Instalacja Proxmox</a>
+            <a href="#konfiguracja-klastra">Konfiguracja klastra</a>
+            <a href="#praca-z-maszynami">Praca z maszynami</a>
+            <a href="#przyklady-zastosowan">Przykłady zastosowań</a>
+        </nav>
+
+        <section id="wprowadzenie">
+            <h1>Wdrożenie Proxmox do nauczania</h1>
+            <h2>Wprowadzenie</h2>
+            <p>Proxmox VE to potężne narzędzie do zarządzania wirtualizacją, które może być wykorzystane w edukacji do tworzenia wirtualnych laboratoriów i środowisk nauczania.</p>
+        </section>
+        
+        <section id="wymagania-systemowe">
+            <h2>Wymagania systemowe</h2>
+            <ul>
+                <li>Serwer z co najmniej 8 GB RAM</li>
+                <li>Dysk twardy o pojemności co najmniej 100 GB</li>
+                <li>Procesor wspierający wirtualizację (Intel VT-x lub AMD-V)</li>
+            </ul>
+        </section>
+        
+        <section id="instalacja-proxmox">
+            <h2>Instalacja Proxmox</h2>
+            <ol>
+                <li>Pobierz obraz ISO Proxmox VE z <a href="https://www.proxmox.com/en/downloads">oficjalnej strony</a>.</li>
+                <li>Nagraj obraz na pendrive lub płytę DVD.</li>
+                <li>Uruchom serwer z nośnika instalacyjnego i postępuj zgodnie z instrukcjami na ekranie.</li>
+            </ol>
+        </section>
+        
+        <section id="konfiguracja-klastra">
+            <h2>Konfiguracja klastra</h2>
+            <ol>
+                <li>Zaloguj się do interfejsu webowego Proxmox.</li>
+                <li>Utwórz nowy klaster i dodaj do niego węzły.</li>
+                <li>Skonfiguruj sieć i zasoby klastra.</li>
+            </ol>
+        </section>
+        
+        <section id="praca-z-maszynami">
+            <h2>Praca z maszynami Linux i Windows</h2>
+            <p>Proxmox VE umożliwia uczniom pracę zarówno z maszynami wirtualnymi Linux, jak i Windows. Dzięki temu mogą oni zdobywać doświadczenie w pracy z różnymi systemami operacyjnymi, co jest niezwykle cenne w kontekście ich przyszłej kariery zawodowej.</p>
+            
+            <h3>Maszyny wirtualne Linux</h3>
+            <ul>
+                <li>Uczniowie mogą tworzyć i zarządzać maszynami wirtualnymi z popularnymi dystrybucjami Linux, takimi jak Ubuntu, Debian czy CentOS.</li>
+                <li>Mogą uczyć się podstaw administracji systemami Linux, zarządzania pakietami, konfiguracji sieci oraz skryptowania w Bash.</li>
+            </ul>
+            
+            <h3>Maszyny wirtualne Windows</h3>
+            <ul>
+                <li>Proxmox VE pozwala również na tworzenie maszyn wirtualnych z systemem Windows, co umożliwia uczniom naukę administracji systemami Windows.</li>
+                <li>Uczniowie mogą ćwiczyć instalację i konfigurację oprogramowania, zarządzanie użytkownikami i grupami, a także zabezpieczanie systemu.</li>
+            </ul>
+        </section>
+        
+        <section id="przyklady-zastosowan">
+            <h2>Przykłady zastosowań w nauczaniu</h2>
+            <ul>
+                <li>Tworzenie wirtualnych laboratoriów dla studentów.</li>
+                <li>Symulacje sieciowe i testowanie konfiguracji.</li>
+                <li>Wirtualne środowiska programistyczne.</li>
+            </ul>
+        </section>
+        
+        <section id="slider">
+            <h2>Galeria</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Proxmox-Screen-GUI.png" class="d-block w-100" alt="Proxmox Dashboard">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Proxmox-installer-welcome-screen.png" class="d-block w-100" alt="Proxmox Install">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="pve-cluster.png" class="d-block w-100" alt="Proxmox Cluster">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Proxmox Education. Wszelkie prawa zastrzeżone.</p>
+        <p>
+            <a href="#wprowadzenie">Wprowadzenie</a> |
+            <a href="#wymagania-systemowe">Wymagania systemowe</a> |
+            <a href="#instalacja-proxmox">Instalacja Proxmox</a> |
+            <a href="#konfiguracja-klastra">Konfiguracja klastra</a> |
+            <a href="#praca-z-maszynami">Praca z maszynami</a> |
+            <a href="#przyklady-zastosowan">Przykłady zastosowań</a>
+        </p>
+        <p>Jeśli masz pytania, skontaktuj się z nami na <a href="mailto:email@example.com">email@example.com</a>.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
