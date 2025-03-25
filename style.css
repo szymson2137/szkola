@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa;
-    color: #343a40;
+    background-color: #121212; /* Ciemne tło */
+    color: #ffffff; /* Jasny tekst */
     margin: 0;
     padding: 0;
 }
 
 h1, h2, h3 {
-    color: #007bff;
+    color: #bb86fc; /* Jasny fioletowy kolor nagłówków */
 }
 
 img {
@@ -19,20 +19,16 @@ img {
 
 .container {
     margin: 20px auto;
-    max-width: 1200px;
+    max-width: 1200px; /* Zwiększona szerokość */
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #1f1f1f; /* Ciemne tło kontenera */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header {
-    background-image: url("servers-image.png");
-    background-position: center;
-    background-blend-mode: color;
-    background-color: #00000067;
-    background-size: 100%;
-    color: #ffffff;
+    background-color: #bb86fc; /* Jasny fioletowy kolor nagłówka */
+    color: #121212; /* Ciemny tekst nagłówka */
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -48,21 +44,20 @@ img {
     display: inline;
     margin-left: 10px;
     font-size: 24px;
-    color: white;
 }
 
 .navbar {
-    background-color: #ffffff;
+    background-color: #1f1f1f; /* Ciemne tło nawigacji */
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .navbar a {
-    color: #007bff;
+    color: #bb86fc; /* Jasny fioletowy kolor linków */
     margin: 0 10px;
     text-decoration: none;
     padding: 5px 10px;
@@ -71,13 +66,13 @@ img {
 }
 
 .navbar a:hover {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #bb86fc; /* Jasny fioletowy kolor tła linków */
+    color: #121212; /* Ciemny tekst linków */
 }
 
 .navbar a.active {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #bb86fc; /* Jasny fioletowy kolor tła aktywnych linków */
+    color: #121212; /* Ciemny tekst aktywnych linków */
 }
 
 section {
@@ -85,8 +80,8 @@ section {
 }
 
 button {
-    background-color: #007bff;
-    color: #ffffff;
+    background-color: #bb86fc; /* Jasny fioletowy kolor przycisków */
+    color: #121212; /* Ciemny tekst przycisków */
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -95,12 +90,12 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #9b59b6; /* Ciemniejszy fioletowy kolor przycisków */
 }
 
 footer {
-    background-color: #5a5e63;
-    color: #ffffff;
+    background-color: #1f1f1f; /* Ciemne tło stopki */
+    color: #ffffff; /* Jasny tekst stopki */
     padding: 20px 0;
     text-align: center;
     margin-top: 40px;
@@ -108,7 +103,7 @@ footer {
 }
 
 footer a {
-    color: #ff5e00;
+    color: #bb86fc; /* Jasny fioletowy kolor linków w stopce */
     text-decoration: none;
     margin: 0 10px;
 }
@@ -121,7 +116,7 @@ footer a:hover {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-image: none;
-    background-color: #007bff; /* Kolor tła strzałek */
+    background-color: #bb86fc; /* Kolor tła strzałek */
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -136,7 +131,7 @@ footer a:hover {
     display: inline-block;
     width: 15px;
     height: 15px;
-    border: solid #007bff; /* Kolor strzałek */
+    border: solid #121212; /* Kolor strzałek */
     border-width: 0 3px 3px 0;
 }
 
@@ -148,7 +143,11 @@ footer a:hover {
     transform: rotate(-45deg);
 }
 
+/* Zmiana koloru paska na dole galerii */
+.carousel-indicators li {
+    background-color: #bb86fc; /* Kolor paska */
+}
 
 .carousel-indicators .active {
-    background-color: #007bff; /* Kolor aktywnego paska */
+    background-color: #9b59b6; /* Kolor aktywnego paska */
 }
