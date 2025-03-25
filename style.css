@@ -2,14 +2,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #121212; /* Ciemne tło */
-    color: #ffffff; /* Jasny tekst */
+    background-color: #f8f9fa;
+    color: #343a40;
     margin: 0;
     padding: 0;
 }
 
 h1, h2, h3 {
-    color: #bb86fc; /* Jasny fioletowy kolor nagłówków */
+    color: #007bff;
 }
 
 img {
@@ -19,16 +19,20 @@ img {
 
 .container {
     margin: 20px auto;
-    max-width: 1200px; /* Zwiększona szerokość */
+    max-width: 1200px;
     padding: 20px;
-    background-color: #1f1f1f; /* Ciemne tło kontenera */
+    background-color: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
-    background-color: #bb86fc; /* Jasny fioletowy kolor nagłówka */
-    color: #121212; /* Ciemny tekst nagłówka */
+    background-image: url("servers-image.png");
+    background-position: center;
+    background-blend-mode: color;
+    background-color: #00000067;
+    background-size: 100%;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 8px;
@@ -44,20 +48,21 @@ img {
     display: inline;
     margin-left: 10px;
     font-size: 24px;
+    color: white;
 }
 
 .navbar {
-    background-color: #1f1f1f; /* Ciemne tło nawigacji */
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 8px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
-    color: #bb86fc; /* Jasny fioletowy kolor linków */
+    color: #007bff;
     margin: 0 10px;
     text-decoration: none;
     padding: 5px 10px;
@@ -66,13 +71,13 @@ img {
 }
 
 .navbar a:hover {
-    background-color: #bb86fc; /* Jasny fioletowy kolor tła linków */
-    color: #121212; /* Ciemny tekst linków */
+    background-color: #007bff;
+    color: #ffffff;
 }
 
 .navbar a.active {
-    background-color: #bb86fc; /* Jasny fioletowy kolor tła aktywnych linków */
-    color: #121212; /* Ciemny tekst aktywnych linków */
+    background-color: #007bff;
+    color: #ffffff;
 }
 
 section {
@@ -80,8 +85,8 @@ section {
 }
 
 button {
-    background-color: #bb86fc; /* Jasny fioletowy kolor przycisków */
-    color: #121212; /* Ciemny tekst przycisków */
+    background-color: #007bff;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
@@ -90,12 +95,12 @@ button {
 }
 
 button:hover {
-    background-color: #9b59b6; /* Ciemniejszy fioletowy kolor przycisków */
+    background-color: #0056b3;
 }
 
 footer {
-    background-color: #343a40; /* Ciemne tło stopki */
-    color: #ffffff; /* Jasny tekst stopki */
+    background-color: #5a5e63;
+    color: #ffffff;
     padding: 20px 0;
     text-align: center;
     margin-top: 40px;
@@ -103,7 +108,7 @@ footer {
 }
 
 footer a {
-    color: #007bff; /* Jasny fioletowy kolor linków w stopce */
+    color: #ff5e00;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -116,7 +121,7 @@ footer a:hover {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     background-image: none;
-    background-color: #bb86fc; /* Kolor tła strzałek */
+    background-color: #007bff; /* Kolor tła strzałek */
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -131,7 +136,7 @@ footer a:hover {
     display: inline-block;
     width: 15px;
     height: 15px;
-    border: solid #121212; /* Kolor strzałek */
+    border: solid #007bff; /* Kolor strzałek */
     border-width: 0 3px 3px 0;
 }
 
@@ -143,11 +148,11 @@ footer a:hover {
     transform: rotate(-45deg);
 }
 
-/* Zmiana koloru paska na dole galerii */
-.carousel-indicators li {
-    background-color: #bb86fc; /* Kolor paska */
-}
+
+
+
+
 
 .carousel-indicators .active {
-    background-color: #9b59b6; /* Kolor aktywnego paska */
+    background-color: #007bff; /* Kolor aktywnego paska */
 }
