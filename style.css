@@ -99,7 +99,7 @@ button:hover {
 }
 
 footer {
-    background-color: #343a40;
+    background-color: #5a5e63;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
@@ -108,7 +108,7 @@ footer {
 }
 
 footer a {
-    color: #007bff;
+    color: #ff5e00;
     text-decoration: none;
     margin: 0 10px;
 }
