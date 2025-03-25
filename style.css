@@ -94,7 +94,7 @@ button:hover {
 }
 
 footer {
-    background-color: #1f1f1f; /* Ciemne tło stopki */
+    background-color: #343a40; /* Ciemne tło stopki */
     color: #ffffff; /* Jasny tekst stopki */
     padding: 20px 0;
     text-align: center;
@@ -103,7 +103,7 @@ footer {
 }
 
 footer a {
-    color: #bb86fc; /* Jasny fioletowy kolor linków w stopce */
+    color: #007bff; /* Jasny fioletowy kolor linków w stopce */
     text-decoration: none;
     margin: 0 10px;
 }
